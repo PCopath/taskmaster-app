@@ -1,131 +1,131 @@
-# TaskMaster App - Görev & Zaman Yönetimi Uygulaması
+# TaskMaster App - Task & Time Management
 
-Modern ve kullanıcı dostu bir görev yönetimi ve Pomodoro timer uygulaması. React hooks, Context API ve TailwindCSS kullanılarak geliştirilmiştir.
+A modern, user-friendly task management and Pomodoro timer application built with React, Context API, and TailwindCSS.
 
-## 🚀 Özellikler
+## 🚀 Features
 
-### 📋 Görev Yönetimi
-- ✅ Görev ekleme, düzenleme ve silme
-- 🏷️ Kategori bazında görev organizasyonu (İş, Kişisel, Acil, Alışveriş, Sağlık)
-- 📅 Bitiş tarihi belirleme ve gecikmiş görev uyarıları
-- 🔍 Durum ve kategori bazında filtreleme
-- 💾 LocalStorage ile veri kalıcılığı
+### 📋 Task Management
+- ✅ Add, edit, and delete tasks
+- 🏷️ Organize tasks by category (Work, Personal, Urgent, Shopping, Health)
+- 📅 Set due dates and get overdue alerts
+- 🔍 Filter by status and category
+- 💾 Data persistence with LocalStorage
 
 ### ⏰ Pomodoro Timer
-- 🎯 25 dakika çalışma / 5 dakika mola döngüsü
-- ⏸️ Başlat, duraklat ve sıfırla kontrolleri
-- 📊 Görsel progress ring ve döngü sayacı
-- 🔔 Ses ve bildirim uyarıları
-- 📈 Tamamlanan döngü istatistikleri
+- 🎯 25-minute work / 5-minute break cycles
+- ⏸️ Start, pause, and reset controls
+- 📊 Visual progress ring and cycle counter
+- 🔔 Sound and notification alerts
+- 📈 Completed cycle statistics
 
-### 📊 İstatistikler
-- 📈 Genel görev istatistikleri
-- 🎯 Kategori bazında performans analizi
-- ⏰ Gecikmiş görev takibi
-- 📅 Günlük görev özeti
+### 📊 Statistics
+- 📈 General task statistics
+- 🎯 Performance analysis by category
+- ⏰ Overdue task tracking
+- 📅 Daily task summary
 
-### 🎨 Kullanıcı Deneyimi
-- 🌙 Açık/Koyu tema desteği
-- 📱 Responsive tasarım (mobil uyumlu)
-- ✨ Smooth animasyonlar ve geçişler
-- 🎯 Modern ve temiz arayüz
+### 🎨 User Experience
+- 🌙 Light/Dark theme support
+- 📱 Responsive design (mobile-friendly)
+- ✨ Smooth animations and transitions
+- 🎯 Modern and clean interface
 
-## 🛠️ Teknolojiler
+## 🛠️ Technologies
 
-- **React 19** - Modern React hooks ve functional components
-- **Vite** - Hızlı geliştirme ortamı
+- **React 19** - Modern React hooks and functional components
+- **Vite** - Fast development environment
 - **TailwindCSS** - Utility-first CSS framework
 - **Context API** - State management
-- **LocalStorage** - Veri kalıcılığı
+- **LocalStorage** - Data persistence
 - **Custom Hooks** - Pomodoro timer logic
 
-## 🚀 Kurulum
+## 🚀 Getting Started
 
-1. Projeyi klonlayın:
+1. Clone the repository:
 ```bash
 git clone <repository-url>
 cd taskmaster-app
 ```
 
-2. Bağımlılıkları yükleyin:
+2. Install dependencies:
 ```bash
 npm install
 ```
 
-3. Geliştirme sunucusunu başlatın:
+3. Start the development server:
 ```bash
 npm run dev
 ```
 
-4. Tarayıcınızda `http://localhost:5173` adresini açın.
+4. Open `http://localhost:5173` in your browser.
 
-## 📁 Proje Yapısı
+## 📁 Project Structure
 
 ```
 src/
-├── components/          # React bileşenleri
-│   ├── Header.jsx      # Uygulama başlığı ve tema toggle
-│   ├── TaskForm.jsx    # Yeni görev ekleme formu
-│   ├── TaskItem.jsx    # Tekil görev öğesi
-│   ├── TaskList.jsx    # Görev listesi ve filtreleme
-│   ├── PomodoroTimer.jsx # Pomodoro timer bileşeni
-│   └── StatsPanel.jsx  # İstatistik paneli
+├── components/          # React components
+│   ├── Header.jsx      # App header and theme toggle
+│   ├── TaskForm.jsx    # Add new task form
+│   ├── TaskItem.jsx    # Single task item
+│   ├── TaskList.jsx    # Task list and filtering
+│   ├── PomodoroTimer.jsx # Pomodoro timer component
+│   └── StatsPanel.jsx  # Statistics panel
 ├── context/            # React Context API
-│   ├── ThemeContext.jsx # Tema yönetimi
-│   └── TaskContext.jsx # Görev yönetimi
+│   ├── ThemeContext.jsx # Theme management
+│   └── TaskContext.jsx # Task management
 ├── hooks/              # Custom React hooks
 │   └── usePomodoro.js  # Pomodoro timer logic
-├── styles/             # CSS dosyaları
-└── utils/              # Yardımcı fonksiyonlar
+├── styles/             # CSS files
+└── utils/              # Utility functions
 ```
 
-## 🎯 Kullanım
+## 🎯 Usage
 
-### Görev Ekleme
-1. "Görevler" sekmesine gidin
-2. "Yeni Görev Ekle" butonuna tıklayın
-3. Görev başlığı, açıklama, kategori ve bitiş tarihi girin
-4. "Görev Ekle" butonuna tıklayın
+### Add a Task
+1. Go to the "Tasks" section
+2. Click "Add New Task"
+3. Enter the title, description, category, and due date
+4. Click "Add Task"
 
 ### Pomodoro Timer
-1. "Pomodoro" sekmesine gidin
-2. "Başlat" butonuna tıklayın
-3. 25 dakika çalışma süresi sonunda otomatik mola
-4. 5 dakika mola sonunda otomatik çalışma döngüsü
+1. Go to the "Pomodoro" section
+2. Click "Start"
+3. After 25 minutes, a break will start automatically
+4. After 5 minutes, the next work cycle begins
 
-### İstatistikler
-1. "İstatistikler" sekmesine gidin
-2. Genel ve kategori bazında performansınızı görün
-3. Gecikmiş görevleri takip edin
+### Statistics
+1. Go to the "Statistics" section
+2. View your overall and category-based performance
+3. Track overdue tasks
 
-## 🔧 Geliştirme
+## 🔧 Development
 
-### Yeni özellik ekleme
-1. İlgili bileşeni `src/components/` klasöründe oluşturun
-2. Gerekirse yeni context veya hook ekleyin
-3. `App.jsx`'te yeni bileşeni entegre edin
+### Adding New Features
+1. Create the relevant component in `src/components/`
+2. Add new context or hook if needed
+3. Integrate the component in `App.jsx`
 
-### Stil değişiklikleri
-- TailwindCSS utility sınıflarını kullanın
-- `src/index.css`'te custom CSS ekleyin
-- `tailwind.config.js`'te tema özelleştirmeleri yapın
+### Styling
+- Use TailwindCSS utility classes
+- Add custom CSS in `src/index.css`
+- Customize the theme in `tailwind.config.js`
 
-## 📝 Lisans
+## 📝 License
 
-Bu proje MIT lisansı altında lisanslanmıştır.
+This project is licensed under the MIT License.
 
-## 🤝 Katkıda Bulunma
+## 🤝 Contributing
 
-1. Fork yapın
-2. Feature branch oluşturun (`git checkout -b feature/amazing-feature`)
-3. Değişikliklerinizi commit edin (`git commit -m 'Add amazing feature'`)
-4. Branch'inizi push edin (`git push origin feature/amazing-feature`)
-5. Pull Request oluşturun
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to your branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-## 📞 İletişim
+## 📞 Contact
 
-Proje hakkında sorularınız için issue açabilirsiniz.
+For questions, please open an issue.
 
 ---
 
-**TaskMaster App** ile verimliliğinizi artırın! 🚀
+Boost your productivity with **TaskMaster App**! 🚀
