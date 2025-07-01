@@ -1,3 +1,7 @@
+![TaskMaster Uygulama Ekran Görüntüsü](public/screenshot.png)
+
+[🟢 Canlı Demo: TaskMaster App](https://taskmaster-app-omega.vercel.app/)
+
 # TaskMaster App - Task & Time Management
 
 A modern, user-friendly task management and Pomodoro timer application built with React, Context API, and TailwindCSS.
