@@ -1,6 +1,8 @@
-![TaskMaster Uygulama Ekran Görüntüsü](public/screenshot.png)
+<img width="1511" alt="Ekran Resmi 2025-07-01 05 37 54" src="https://github.com/user-attachments/assets/ab58980c-70e2-4c45-a38a-357be56b3d3a" />
 
-[🟢 Canlı Demo: TaskMaster App](https://taskmaster-app-omega.vercel.app/)
+
+
+[🟢 LIVE DEMO: TaskMaster App](https://taskmaster-app-omega.vercel.app/)
 
 # TaskMaster App - Task & Time Management
 
